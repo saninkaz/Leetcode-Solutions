@@ -67,7 +67,7 @@ public:
                 result.push_back({intervals[i]});
             }
 
-            else if (intervals[i][0] <= result.back()[1] && intervals[i][1] > result.back()[1]){
+            else if (intervals[i][0] <= result.ba13ck()[1] && intervals[i][1] > result.back()[1]){
                 result.back()[1]= intervals[i][1];
             }
         }
